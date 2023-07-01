@@ -164,6 +164,11 @@ a:focus, .btn:focus, .btn:active:focus, .btn.active:focus, .btn.focus, .btn:acti
 	background-color: #d43031;
 }
 /* Header Section */
+@media only screen and (max-width: 600px) {
+	.intro{
+	 max-width: 450px;
+	}
+  }
 .intro {
 	display: table;
 	width: 100%;
@@ -309,7 +314,7 @@ header .intro-text {
 	left: 0;
 }
 #team img {
-	max-width: 400px;
+	max-width: 480px;
 }
 #team .team-img {
 	display: inline-block;
