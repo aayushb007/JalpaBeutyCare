@@ -217,25 +217,7 @@ a:focus,
 	background-color: #d43031;
 }
 
-/* Header Section */
-@media only screen and (max-width: 600px) {
-	.intro {
-		width: 450px;
-		background-color: #a08c8cde;
-		-webkit-background-size: cover;
-		-moz-background-size: cover;
-		background-size: cover;
 
-	}
-
-	.intro h1 {
-		font-family: 'Rochester', cursive;
-		color: #fff;
-		font-size: 8em;
-		font-weight: 300;
-		margin-top: 0;
-	}
-}
 
 .intro {
 	display: table;
@@ -563,4 +545,36 @@ label {
 
 #footer a:hover {
 	color: #eee;
+}
+
+
+
+
+/* Header Section */
+@media screen and (max-width: 768px) {
+	#menu{
+		width: 450px;
+	}
+	header{
+		width: 450px;
+	}
+	.team-img{
+		width: 450px;
+	}
+	.intro {
+		width: 450px;
+		background-color: #a08c8cde;
+		-webkit-background-size: cover;
+		-moz-background-size: cover;
+		background-size: cover;
+
+	}
+
+	.intro h1 {
+		font-family: 'Rochester', cursive;
+		color: #fff;
+		font-size: 7em;
+		font-weight: 250;
+		margin-top: 0;
+	}
 }
