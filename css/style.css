@@ -571,7 +571,7 @@ label {
 	}
 	
 	.intro {
-		width: auto;
+/* 		width: ; */
 		background-color: #a08c8cde;
 		-webkit-background-size: cover;
 		-moz-background-size: cover;
