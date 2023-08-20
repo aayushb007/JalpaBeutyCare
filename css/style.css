@@ -562,7 +562,7 @@ label {
 		padding: 20px 0;
 	}
 	#team img {
-		max-width: 400px;
+		max-width: 270px;
 	}
 	
 	#team .team-img {
@@ -571,13 +571,19 @@ label {
 	}
 	
 	.intro {
-		width: 450px;
+		width: 270px;
 		background-color: #a08c8cde;
 		-webkit-background-size: cover;
 		-moz-background-size: cover;
 		background-size: cover;
 
 	}
+	
+header .intro-text {
+	padding-top: 200px;
+	padding-bottom: 50px;
+	text-align: center;
+}
 
 	.intro h1 {
 		font-family: 'Rochester', cursive;
