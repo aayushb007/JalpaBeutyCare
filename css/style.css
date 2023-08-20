@@ -553,10 +553,10 @@ label {
 /* Header Section */
 @media screen and (max-width: 768px) {
 	#menu{
-		width: 350px;
+		width: auto;
 	}
 	header{
-		width: 350px;
+		width: auto;
 	}
 	#team {
 		padding: 20px 0;
